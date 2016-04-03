@@ -38,6 +38,6 @@ public synchronized void ajoutClient(ThreadServeur t) {
 		Serveur.clients.add(t);
 	}
 
-- Utilisation du pattern MVC : Utilisationde swing pour la vue
+- Utilisation du pattern MVC : Utilisation de swing pour la vue
   
   
