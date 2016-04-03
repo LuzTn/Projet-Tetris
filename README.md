@@ -14,5 +14,6 @@ Un minimum de trois types de tétriminos (les pièces du tetris) différents est
 
 -Les 5 meilleurs scores (nombre de lignes détruites) doivent être enregistrés dans un fichier pour pouvoir être persistés et ainsi pouvoir être affichés a posteriori.
 - GUI est utilisé pour l'interface
+- Utilisation du pattern MVC
   
   
