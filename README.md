@@ -14,7 +14,7 @@ Un minimum de trois types de tétriminos (les pièces du tetris) différents est
 
 -Les 5 meilleurs scores (nombre de lignes détruites) doivent être enregistrés dans un fichier pour pouvoir être persistés et ainsi pouvoir être affichés a posteriori.
 - GUI est utilisé pour l'interface
-- Utilisation du pattern MVC 
+- Le jeu marche sur Eclipse mais on n'a pas pu le lancer à partir de la cmd puisque il y a un bug (java.lang.NullPointerException) qu'on n'a pas pu fixer (7 minutes avant la deadline)
 
 Exercice Design Pattern / SOLID
 On a appliqué le principe SRP : SINGLE RESPONSABILITY PRINCIPLE
@@ -32,8 +32,12 @@ public class Lanceur {
 	
 }
 cette classe n'a pour role que lancer le jeu.
+Le Design pattern Lock/Mutex: Méchanisme de Synchronisation
+public synchronized void ajoutClient(ThreadServeur t) {
+		System.out.println("L''utilisateur " +t.getId() +" est maintenant connecté ...");
+		Serveur.clients.add(t);
+	}
 
-
-
+- Utilisation du pattern MVC : Utilisationde swing pour la vue
   
   
